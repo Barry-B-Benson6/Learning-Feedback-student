@@ -8,22 +8,27 @@ have node.js installed
 <strong>Node modules</strong>
 
 
-npm install electron
+  -electron
 
 
-npm install electron-packager
+  -electron-packager
 
 
-npm install dotenv
+  -dotenv
 
 
-npm install electron-localshortcut
+  -install electron-localshortcut
 
 
-npm node-html-parser
+  -node-html-parser
 
 
-npm xmlhttprequest
+  -xmlhttprequest
 
 
-<strong>Ask me for env</strong>
+<strong>.Env</strong>
+
+apiAccessKey ="key"
+masterKey ="key"
+quizBin ="link"
+responseBin ="link"
