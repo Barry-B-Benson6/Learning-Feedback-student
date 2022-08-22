@@ -1,0 +1,19 @@
+{
+  "name": "learning-feedback",
+  "version": "1.0.0",
+  "description": "For doing learning feedback questions",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Barry-B-Benson",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "electron": "^20.0.3",
+    "electron-localshortcut": "^3.2.1",
+    "electron-packager": "^15.5.1",
+    "node-html-parser": "^5.4.2-0",
+    "xmlhttprequest": "^1.8.0"
+  }
+}

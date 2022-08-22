@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link href="Styles/Woodcroft-Styling.css" rel="stylesheet">
+        <script type="text/javascript" src="WebFunctions.js"></script>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    </head>
+    <body style="margin: 0px;" onload="Setup()">
+        <noscript>You need to enable js to run the app</noscript>
+        <div id = "header">
+            <img src="https://www.woodcroft.sa.edu.au/wp-content/uploads/2020/07/default-logo.png" id = "logo">
+            <h1 id = "header-text"> Learning Feedback Questions</h1>
+        </div>
+
+        <br>
+
+        <div id="popup-wrapper">
+            <div id = "popup">
+                <button id="close-popup" onclick="ClosePopup()">x</button>
+                <H1 id ="popup-text">Please answer all manditory questions</H1>
+                <p1 id ="popup-subtext">manditory questions are marked with a *</p1>
+            </div>
+        </div>
+
+        <div id="">
+
+        </div>
+
+        <div id="main-section" data-="C:\\Users\\josh2\\Learning-Feedback-student">
+            <div id = "main-content-wrapper">
+                <div id="Question-info">
+                    <div id = "Teacher-info">
+                        <h1>Teacher Name</h1>
+                        <p1 id = "Teacher-name">Mr Nixon Smith</p1>
+                    </div>
+                    <h1 id = "Quiz-name">Term 3 progress update</h1>
+                </div>
+
+                <div class = "text-question">
+                    <h1 class = "question-text" >What is your name? *</h1>
+                    <span id = "Student-name" class="question-textBox" role="textbox" contenteditable></span>
+                </div>
+
+                <div id="questions" data-="2">
+
+                <div class = "text-question">
+    <h1 class = "question-text">How is Term 3 so far? *</h1>
+    <span id="Question1" class="question-textBox" role="textbox" contenteditable></span>
+</div><div class = "text-question">
+    <h1 class = "question-text">Is there anything i could do better?</h1>
+    <span id="Question2" class="question-textBox" role="textbox" contenteditable></span>
+</div></div>
+                <button id = "submit-button" onclick="Submit()" on>Submit</button>
+            </div>
+        </div>
+        <br><br><br><br><br>
+    </body>
+</html>
