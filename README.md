@@ -29,6 +29,12 @@ have node.js installed
 <strong>.Env</strong>
 
 apiAccessKey ="key"
+
+
 masterKey ="key"
+
+
 quizBin ="link"
+
+
 responseBin ="link"
