@@ -1,3 +1,5 @@
 node_modules/
 learning-feedback-win32-x64/
 .env
+Questions.json
+temp-html.html
