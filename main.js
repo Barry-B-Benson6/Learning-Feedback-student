@@ -54,13 +54,6 @@ const createWindow = () => {
     //win.removeMenu();
     const electronLocalshortcut = require('electron-localshortcut');
 
-    electronLocalshortcut.register(win, 'Backspace', () => {
-        win.loadFile(__dirname + "/temp-html.html")
-        win.title = "Feedback"
-        console.log("back");
-        // Open DevTools
-    });
-
     electronLocalshortcut.register(win, 'F11', () => {
         win.setFullScreen(true)
         console.log("fullscreen");
