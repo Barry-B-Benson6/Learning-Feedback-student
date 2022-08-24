@@ -26,15 +26,11 @@ have node.js installed
   -xmlhttprequest
 
 
-<strong>.Env</strong>
+<strong>.env</strong>
 
-apiAccessKey ="key"
-
-
-masterKey ="key"
-
-
-quizBin ="link"
-
-
-responseBin ="link"
+```
+apiAccessKey="key"
+masterKey="key"
+quizBin="link"
+responseBin="link"
+```
