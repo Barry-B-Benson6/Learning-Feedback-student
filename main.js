@@ -54,7 +54,7 @@ const createWindow = () => {
     //win.removeMenu();
     const electronLocalshortcut = require('electron-localshortcut');
 
-    electronLocalshortcut.register(win, 'Backspace', () => {
+    electronLocalshortcut.register(win, 'home', () => {
         win.loadFile(__dirname + "/temp-html.html")
         win.title = "Feedback"
         console.log("back");
